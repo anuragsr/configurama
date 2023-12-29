@@ -1,5 +1,5 @@
-## r3f-starter
-This is a boilerplate for a basic react+threejs scene, using react-three-fiber
+## configurama
+Let's create a truly dynamic 3D configurator
 
 ![Screenshot](Screenshot.jpg?raw=true)
 ___
