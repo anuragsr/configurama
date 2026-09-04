@@ -271,6 +271,17 @@ body,
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-gradient-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.6;
   background: radial-gradient(
     circle at 50% 50%,
     rgba(249, 115, 22, 0.7) 0%,

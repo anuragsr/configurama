@@ -28,7 +28,11 @@ export default function App() {
       <Preloader />
       <Header />
       <main className="app-main-layout">
-        <div className="page-gradient-backdrop" />
+        <div
+          className="page-gradient-backdrop"
+          style={{ backgroundImage: 'url(/images/bg.jpg)' }}
+        />
+        <div className="page-gradient-overlay" />
         <Scene canvasRef={canvasRef} />
         <CustomizerPanel />
         <ActionControls onSnapshot={handleSnapshot} />

@@ -13,7 +13,7 @@ function buildWoodTexture() {
   const ctx = canvas.getContext('2d');
 
   // Base wood tone
-  ctx.fillStyle = '#a9743f';
+  ctx.fillStyle = '#4a3220';
   ctx.fillRect(0, 0, width, height);
 
   // Wavy grain streaks running across the plank
@@ -21,7 +21,7 @@ function buildWoodTexture() {
   for (let i = 0; i < streakCount; i++) {
     const y = (i / streakCount) * height + (Math.random() - 0.5) * 6;
     const shade = 0.75 + Math.random() * 0.4; // darker/lighter variation
-    const brown = [90 * shade, 58 * shade, 30 * shade];
+    const brown = [45 * shade, 29 * shade, 15 * shade];
     ctx.strokeStyle = `rgba(${brown[0]}, ${brown[1]}, ${brown[2]}, ${0.35 + Math.random() * 0.25})`;
     ctx.lineWidth = 1.5 + Math.random() * 3;
 
