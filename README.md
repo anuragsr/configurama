@@ -1,6 +1,8 @@
-## configurama
-Let's create a truly dynamic 3D configurator
+## Cap Configurator
+A cap colors configurator, using react-three-fiber
 
-![Screenshot](Screenshot.jpg?raw=true)
+[Demo](https://envisagecyberart.in/projects/3D/cap-configurator/)
+
+![Screenshot](Screenshot-1.jpg?raw=true)
 ___
 Author [Anurag Srivastava](http://www.envisagecyberart.in)
